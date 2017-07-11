@@ -17,5 +17,11 @@ make70sDancer.prototype.step = function() {
   // See http://api.jquery.com/category/effects/ for this and
   // other effects you can use on a jQuery-wrapped html tag.
 
-  this.setPosition( $('body').height() * Math.random(), $('body').width() * Math.random());
+  //this.setPosition( $('body').height() * Math.random(), $('body').width() * Math.random());
+  /*this.$node.animate({
+    marginLeft: "+=250px"}, 1000);*/
 };
+
+/*make70sDancer.prototype.flip = function() {
+  $('.seventiesDancer').css({'transform': 'rotate(-180deg)'});
+};*/

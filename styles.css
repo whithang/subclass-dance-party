@@ -26,12 +26,14 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 .seventiesDancer{
-  border:10px solid yellow;
-  border-radius:10px;
+  background-image: url("/Users/student/Desktop/hrsf80-subclass-dance-party/images/70sdancerPink.png");
+  height:210px;
+  width:175px;
   position:absolute;
 }
 .breakDancer{
-  border:10px solid blue;
-  border-radius:10px;
+  background-image: url("/Users/student/Desktop/hrsf80-subclass-dance-party/images/breakdancerSmall.png");
+  height:317px;
+  width:155px;
   position:absolute;
 }
