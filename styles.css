@@ -2,6 +2,7 @@ body, html{
   height:100%;
 }
 body{
+  background-image: url(https://i.ytimg.com/vi/Zs9CvttTOfs/maxresdefault.jpg);
   margin: 0px;
   background-color:#444;
   font-size: 18px;
@@ -13,6 +14,10 @@ body, a:link, a:visited, a:active{
   padding:5px 12px;
   float:right;
 }
+.title, .lineUpDancerButton{
+  padding:5px 12px;
+  float:right;
+}
 .topbar{
   height:32px;
   background-color: #555;
@@ -21,19 +26,20 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  content: url(/Users/student/Desktop/hrsf80-subclass-dance-party/images/pacman.gif);
+  height:100px;
+  width:100px;
   position:absolute;
 }
 .seventiesDancer{
-  background-image: url("/Users/student/Desktop/hrsf80-subclass-dance-party/images/70sdancerPink.png");
-  height:210px;
-  width:175px;
+  content: url(http://media.tumblr.com/6de2353489d4dd5cb5ddb716b99d12a7/tumblr_inline_nbyqqioQga1rmgp1e.gif);
+  height:auto;
+  width:auto;
   position:absolute;
 }
 .breakDancer{
-  background-image: url("/Users/student/Desktop/hrsf80-subclass-dance-party/images/breakdancerSmall.png");
-  height:317px;
-  width:155px;
+  content: url(https://68.media.tumblr.com/a38d788c07fcbeac16640d0c17717500/tumblr_nha1bsy3um1u6w1edo1_250.gif);
+  height:auto;
+  width:auto;
   position:absolute;
 }
